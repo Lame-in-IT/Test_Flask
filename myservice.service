@@ -1,0 +1,8 @@
+[Service]
+WorkingDirectory= /home/my/
+User=root
+ExecStart=/home/my/venv/bin/python3 prog.py
+
+[Install]
+WantedBy=multi-user.target
+EOF

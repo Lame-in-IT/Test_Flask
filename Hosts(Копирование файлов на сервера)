@@ -1,0 +1,24 @@
+fs1
+fs2
+fs3
+fs4
+fs5
+fs6
+fs7
+fs8
+fs9
+fs10
+fs11
+fs12
+fs13
+fs14
+fs15
+fs16
+fs17
+fs18
+fs19
+fs20
+
+команда в терминале:
+ansible all -i path/to/hosts -m copy -a 'src=path/to/file1.txt dest=/tmp/file1.txt'
+ansible all -i path/to/hosts -m copy -a 'src=path/to/file2.txt dest=/tmp/file2.txt'

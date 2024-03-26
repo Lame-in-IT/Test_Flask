@@ -1,0 +1,23 @@
+/* HEADERS */
+header {
+    padding: 10px;
+}
+
+body {
+    background-color: rgb(175, 202, 214);
+}
+
+table {
+    border-collapse: collapse;
+    /*убираем пустые промежутки между ячейками*/
+    border: 5px solid rgb(192, 92, 154);
+    /*устанавливаем для таблицы внешнюю границу серого цвета толщиной 1px*/
+ }
+
+ th {
+    border: 2px solid rgb(179, 66, 66);
+ }
+
+ td {
+    border: 2px solid grey;
+ }

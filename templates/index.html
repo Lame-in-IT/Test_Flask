@@ -1,0 +1,23 @@
+{% extends 'base.html' %}
+
+{% block title %}
+Страница перевода
+{% endblock %}
+
+{% block body %}
+<body>
+    <div class="container">
+        <header class="d-flex justify-content-center py-3">
+            <ul class="nav nav-pills">
+              <li class="nav-item"><a href="{{ url_for('index') }}" class="nav-link active" aria-current="page">Главная страница</a></li>
+            </ul>
+        </header>
+        <input type="text" id="input" name="text">
+        <button onclick="sendData()" class="btn btn-outline-primary"><h5>Перевести</h5></button> 
+        <button onclick="report()" class="btn btn-outline-primary"><h5>Отчёт</h5></button>
+        <a class="btn btn-outline-primary" href="{{url_for('download')}}">XLS</a>
+        <div id="output"></div>
+        <table class="table-primary" id="table"></table>
+    </div>    
+</body>
+{% endblock %}
